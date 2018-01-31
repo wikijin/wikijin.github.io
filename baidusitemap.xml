@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+
+    
+    
+    
+    
+  <url>
+    <loc>http://alex-jin.com/2018/01/19/My-New-Post/</loc>
+    <lastmod>2018-01-31T07:41:42.000Z</lastmod>
+    <data>
+        <display>
+        <title>MyFirstPost</title>
+        <pubTime>2018-01-20T03:32:57.000Z</pubTime>
+        
+        <tag>hexo</tag>
+         
+         
+           
+             
+              <breadCrumb title="杂七杂八" url="http://alex-jin.com/categories/%E6%9D%82%E4%B8%83%E6%9D%82%E5%85%AB/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+    
+  <url>
+    <loc>http://alex-jin.com/2018/01/19/hello-world/</loc>
+    <lastmod>2018-01-20T02:40:59.000Z</lastmod>
+    <data>
+        <display>
+        <title>Hello World</title>
+        <pubTime>2018-01-20T02:40:59.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+</urlset>
