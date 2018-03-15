@@ -4,15 +4,37 @@
 
     
   <url>
-    <loc>http://alex-jin.com/2018/03/14/Full-Stack-%E4%B9%8B-HTML/</loc>
-    <lastmod>2018-03-15T01:34:48.000Z</lastmod>
+    <loc>http://alex-jin.com/2018/03/14/MVC-Architecture/</loc>
+    <lastmod>2018-03-15T11:29:00.000Z</lastmod>
     <data>
         <display>
-        <title>Full Stack 之 HTML</title>
-        <pubTime>2018-03-14T23:55:39.000Z</pubTime>
+        <title>MVC Architecture</title>
+        <pubTime>2018-03-15T02:14:03.000Z</pubTime>
         
          
            
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://alex-jin.com/2018/03/14/Full-Stack-%E4%B9%8B-HTML/</loc>
+    <lastmod>2018-03-15T01:46:41.000Z</lastmod>
+    <data>
+        <display>
+        <title>Full Stack 之 HTML</title>
+        <pubTime>2018-03-14T23:55:00.000Z</pubTime>
+        
+        <tag>Full Stack</tag>
+         
+        <tag>HTML</tag>
+         
+         
+           
+             
+              <breadCrumb title="Web and UI Development" url="http://alex-jin.com/categories/Web-and-UI-Development/"/>
+          
         </display>
     </data>
     </url>

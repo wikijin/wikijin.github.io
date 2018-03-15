@@ -261,6 +261,195 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://alex-jin.com/2018/03/14/MVC-Architecture/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Alex Jin">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/uploads/avatar.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Alex's Website">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/03/14/MVC-Architecture/" itemprop="url">MVC Architecture</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-03-14T19:14:03-07:00">
+                2018-03-14
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2018/03/14/MVC-Architecture/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="2018/03/14/MVC-Architecture/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h3 id="Model-View-Controller-Architecture"><a href="#Model-View-Controller-Architecture" class="headerlink" title="Model-View-Controller Architecture"></a>Model-View-Controller Architecture</h3><ul>
+<li>Design goal : Identify which application component are model, view, or controller.</li>
+<li>关系图</li>
+</ul>
+<p><img src="/images/pasted-6.png" alt="upload successful"></p>
+<ul>
+<li>MVC Implementation:<ul>
+<li>Keep the implementation of the three objects types separate.</li>
+<li>Each type of object does not depend on how the other types are implement.(说白了互不影响)</li>
+</ul>
+</li>
+<li>Model Object<ul>
+<li>Represent the persistent information maintained by your application.</li>
+<li>The information can be kept in a database.  </li>
+</ul>
+</li>
+<li>View Object<ul>
+<li>View objects represent. <ul>
+<li>Input components of a webpage.</li>
+</ul>
+</li>
+<li>Users interact with at least one view object.</li>
+<li>View object collects information from users in a <em>form</em> that the model and controller objects can use.</li>
+</ul>
+</li>
+<li>Controller Object<ul>
+<li>coordinate the model and view object.</li>
+<li>can be implemented by routing</li>
+<li>represent application control flows</li>
+</ul>
+</li>
+</ul>
+<h4 id="Route"><a href="#Route" class="headerlink" title="Route"></a>Route</h4><ul>
+<li>A route is a mapping from an incoming HTTP request to athe appropriate controller code.(说白了就是找路，发来一个http请求，然后route是用来找应该发到哪个controller里)</li>
+<li>A <strong>URI</strong>(Uniform Resource Identifier) identifies a resource your application provides. <ul>
+<li>The most common form of URI is a URL</li>
+</ul>
+</li>
+</ul>
+<h4 id="HTTP-request"><a href="#HTTP-request" class="headerlink" title="HTTP request"></a>HTTP request</h4><ul>
+<li>Most widely used http method is <strong>GET, POST, PUT and DELETE</strong></li>
+</ul>
+<h4 id="Form-data"><a href="#Form-data" class="headerlink" title="Form data"></a>Form data</h4><ul>
+<li>A user can input data into an HTML form displayed on a client-side web browser.</li>
+<li>Ways to send form data: <ul>
+<li>Get method.<ul>
+<li>Appended to the target URL</li>
+<li>Good for small amounts of data</li>
+</ul>
+</li>
+<li>Post method<ul>
+<li>sent via environment variables</li>
+<li>Good for large amounts of data.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p><img src="/images/pasted-7.png" alt="upload successful"></p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://alex-jin.com/2018/03/14/Full-Stack-之-HTML/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -292,7 +481,7 @@
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-03-14T16:55:39-07:00">
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-03-14T16:55:00-07:00">
                 2018-03-14
               </time>
             
@@ -302,6 +491,28 @@
             
           </span>
 
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Web-and-UI-Development/" itemprop="url" rel="index">
+                    <span itemprop="name">Web and UI Development</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
           
 
           
@@ -909,7 +1120,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">3</span>
+                  <span class="site-state-item-count">4</span>
                   <span class="site-state-item-name">posts</span>
                 </a>
               </div>
@@ -920,7 +1131,7 @@
               
               <div class="site-state-item site-state-categories">
                 <a href="/categories/index.html">
-                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-count">3</span>
                   <span class="site-state-item-name">categories</span>
                 </a>
               </div>
@@ -931,7 +1142,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">4</span>
+                  <span class="site-state-item-count">5</span>
                   <span class="site-state-item-name">tags</span>
                 </a>
               </div>

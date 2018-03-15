@@ -70,7 +70,7 @@
 
 
 
-  <meta name="keywords" content="Full Stack,HTML," />
+  <meta name="keywords" content="Hexo, NexT" />
 
 
 
@@ -81,21 +81,20 @@
 
 
 
-<meta name="description" content="Client and Server WebApplication:  HTML sepecifies a web pages’s: Content Strusure Semantics   HTML should no longer specify fomatting. Formatting tags and attributes are deprecated HTML Page Template">
-<meta name="keywords" content="Full Stack,HTML">
+<meta name="description" content="Model-View-Controller Architecture Design goal : Identify which application component are model, view, or controller. 关系图    MVC Implementation: Keep the implementation of the three objects types sepa">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Full Stack 之 HTML">
-<meta property="og:url" content="http://alex-jin.com/2018/03/14/Full-Stack-之-HTML/index.html">
+<meta property="og:title" content="MVC Architecture">
+<meta property="og:url" content="http://alex-jin.com/2018/03/14/MVC-Architecture/index.html">
 <meta property="og:site_name" content="Alex&#39;s Website">
-<meta property="og:description" content="Client and Server WebApplication:  HTML sepecifies a web pages’s: Content Strusure Semantics   HTML should no longer specify fomatting. Formatting tags and attributes are deprecated HTML Page Template">
+<meta property="og:description" content="Model-View-Controller Architecture Design goal : Identify which application component are model, view, or controller. 关系图    MVC Implementation: Keep the implementation of the three objects types sepa">
 <meta property="og:locale" content="en">
-<meta property="og:image" content="http://alex-jin.com/images/pasted-2.png">
-<meta property="og:image" content="http://alex-jin.com/images/pasted-4.png">
-<meta property="og:updated_time" content="2018-03-15T01:46:41.000Z">
+<meta property="og:image" content="http://alex-jin.com/images/pasted-6.png">
+<meta property="og:image" content="http://alex-jin.com/images/pasted-7.png">
+<meta property="og:updated_time" content="2018-03-15T11:29:00.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Full Stack 之 HTML">
-<meta name="twitter:description" content="Client and Server WebApplication:  HTML sepecifies a web pages’s: Content Strusure Semantics   HTML should no longer specify fomatting. Formatting tags and attributes are deprecated HTML Page Template">
-<meta name="twitter:image" content="http://alex-jin.com/images/pasted-2.png">
+<meta name="twitter:title" content="MVC Architecture">
+<meta name="twitter:description" content="Model-View-Controller Architecture Design goal : Identify which application component are model, view, or controller. 关系图    MVC Implementation: Keep the implementation of the three objects types sepa">
+<meta name="twitter:image" content="http://alex-jin.com/images/pasted-6.png">
 
 
 
@@ -125,13 +124,13 @@
 
 
 
-  <link rel="canonical" href="http://alex-jin.com/2018/03/14/Full-Stack-之-HTML/"/>
+  <link rel="canonical" href="http://alex-jin.com/2018/03/14/MVC-Architecture/"/>
 
 
 
 
 
-  <title>Full Stack 之 HTML | Alex's Website</title>
+  <title>MVC Architecture | Alex's Website</title>
   
 
 
@@ -268,7 +267,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://alex-jin.com/2018/03/14/Full-Stack-之-HTML/">
+    <link itemprop="mainEntityOfPage" href="http://alex-jin.com/2018/03/14/MVC-Architecture/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Alex Jin">
@@ -285,7 +284,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Full Stack 之 HTML</h1>
+          <h1 class="post-title" itemprop="name headline">MVC Architecture</h1>
         
 
         <div class="post-meta">
@@ -297,7 +296,7 @@
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-03-14T16:55:00-07:00">
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-03-14T19:14:03-07:00">
                 2018-03-14
               </time>
             
@@ -308,28 +307,6 @@
           </span>
 
           
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">In</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Web-and-UI-Development/" itemprop="url" rel="index">
-                    <span itemprop="name">Web and UI Development</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
 
           
             
@@ -338,9 +315,9 @@
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
-                <a href="/2018/03/14/Full-Stack-之-HTML/#comments" itemprop="discussionUrl">
+                <a href="/2018/03/14/MVC-Architecture/#comments" itemprop="discussionUrl">
                   <span class="post-comments-count disqus-comment-count"
-                        data-disqus-identifier="2018/03/14/Full-Stack-之-HTML/" itemprop="commentCount"></span>
+                        data-disqus-identifier="2018/03/14/MVC-Architecture/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -373,189 +350,65 @@
       
 
       
-        <h4 id="Client-and-Server-WebApplication"><a href="#Client-and-Server-WebApplication" class="headerlink" title="Client and Server WebApplication:"></a>Client and Server WebApplication:</h4><p><img src="/images/pasted-2.png" alt="upload successful"></p>
+        <h3 id="Model-View-Controller-Architecture"><a href="#Model-View-Controller-Architecture" class="headerlink" title="Model-View-Controller Architecture"></a>Model-View-Controller Architecture</h3><ul>
+<li>Design goal : Identify which application component are model, view, or controller.</li>
+<li>关系图</li>
+</ul>
+<p><img src="/images/pasted-6.png" alt="upload successful"></p>
 <ul>
-<li>HTML sepecifies a web pages’s:<ul>
-<li>Content</li>
-<li>Strusure</li>
-<li>Semantics</li>
+<li>MVC Implementation:<ul>
+<li>Keep the implementation of the three objects types separate.</li>
+<li>Each type of object does not depend on how the other types are implement.(说白了互不影响)</li>
 </ul>
 </li>
-<li>HTML should no longer specify fomatting. Formatting tags and attributes are deprecated</li>
-<li><p>HTML Page Template</p>
-<pre><code>&lt;!DOCTYPE html&gt;
-&lt;html lang = &quot;en-US&quot;&gt;
-&lt;head&gt;
-      &lt;meta charset = &quot;UTF-8&quot;&gt;
-      &lt;title&gt;page title&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-    body of page
-&lt;/body&gt;
-&lt;/html&gt;
-</code></pre></li>
-<li><p>Heading and Paragraphs</p>
-<pre><code>&lt;body&gt;
-      &lt;h1&gt; chapter 1 &lt;/h1&gt;
-      &lt;h2&gt; chapter 1.1 &lt;/h2&gt;
-
-    &lt;p&gt;
-        I dont like 287 class
-    &lt;/p&gt;
-
-    &lt;p&gt;
-        So far OK?
-    &lt;/p&gt;
- &lt;/body&gt;
-</code></pre></li>
+<li>Model Object<ul>
+<li>Represent the persistent information maintained by your application.</li>
+<li>The information can be kept in a database.  </li>
 </ul>
-<p><img src="/images/pasted-4.png" alt="upload successful"></p>
-<ul>
-<li><p>Order and Unordered List &amp;&amp; Nested List</p>
-<pre><code>&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en-US&quot;&gt;
-&lt;head&gt;
-    &lt;meta charset=&quot;UTF-8&quot;&gt;
-    &lt;title&gt;Lists&lt;/title&gt;
-&lt;/head&gt;
-
-&lt;body&gt;
-    &lt;h1&gt;Unordered list&lt;/h1&gt;
-
-    &lt;ul&gt;
-        &lt;li&gt;California&lt;/li&gt;
-        &lt;li&gt;New York&lt;/li&gt;
-        &lt;li&gt;Texas&lt;/li&gt;
-    &lt;/ul&gt;
-
-    &lt;h1&gt;Ordered list&lt;/h1&gt;
-
-    &lt;ol&gt;
-        &lt;li&gt;CS 146&lt;/li&gt;
-        &lt;li&gt;CS 151&lt;/li&gt;
-        &lt;li&gt;CS 152&lt;/li&gt;
-        &lt;li&gt;CS 153&lt;/li&gt;
-        &lt;li&gt;CS 160&lt;/li&gt;
-        &lt;li&gt;CS 174&lt;/li&gt;
-    &lt;/ol&gt;
-
-    &lt;!-- Ignore the following anchor tag for now. --&gt;
-    &lt;a name=&quot;nested&quot;&gt;&lt;/a&gt;
-
-    &lt;h1&gt;Nested list&lt;/h1&gt;
-
-    &lt;ol&gt;
-        &lt;li&gt;
-            &lt;h2&gt;California&lt;/h2&gt;
-
-            &lt;ul&gt;
-                &lt;li&gt;San Francisco&lt;/li&gt;
-                &lt;li&gt;San Jose&lt;/li&gt;
-                &lt;li&gt;Los Angeles&lt;/li&gt;
-            &lt;/ul&gt;            
-        &lt;/li&gt;
-        &lt;li&gt;
-            &lt;h2&gt;New York&lt;/h2&gt;
-
-            &lt;ol&gt;
-                &lt;li&gt;New York City&lt;/li&gt;
-                &lt;li&gt;Albany&lt;/li&gt;
-            &lt;/ol&gt;
-        &lt;/li&gt;
-        &lt;li&gt;
-            &lt;h2&gt;Texas&lt;/h2&gt;
-
-            &lt;ul&gt;
-                &lt;li&gt;Dallas&lt;/li&gt;
-                &lt;li&gt;El Paso&lt;/li&gt;
-            &lt;/ul&gt;
-        &lt;/li&gt;        
-    &lt;/ol&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-</code></pre><body><br>  <h3>Unordered list</h3><br><br>  <ul><br>      <li>California</li><br>      <li>New York</li><br>      <li>Texas</li><br>  </ul><br><br>  <h3>Ordered list</h3><br><br>  <ol><br>      <li>CS 146</li><br>      <li>CS 151</li><br>      <li>CS 152</li><br>      <li>CS 153</li><br>      <li>CS 160</li><br>      <li>CS 174</li><br>  </ol><br><br>  <!-- Ignore the following anchor tag for now. --><br>  <a name="nested"></a><br><br>  <h3>Nested list</h3><br><br>  <ol><br>      <li><br>          <h4>California</h4><br><br>          <ul><br>              <li>San Francisco</li><br>              <li>San Jose</li><br>              <li>Los Angeles</li><br>          </ul><br>      </li><br>      <li><br>          <h4>New York</h4><br><br>          <ol><br>              <li>New York City</li><br>              <li>Albany</li><br>          </ol><br>      </li><br>      <li><br>          <h4>Texas</h4><br><br>          <ul><br>              <li>Dallas</li><br>              <li>El Paso</li><br>          </ul><br>      </li><br>  </ol><br></body>
 </li>
-<li><p>Simple Table, Table with Borders and Table with colspan and rowspan</p>
-<pre><code>&lt;h3&gt;Spanning rows and columns&lt;/h3&gt;
-
-&lt;table border=&quot;1&quot;&gt;
-    &lt;caption&gt;States&lt;/caption&gt;
-    &lt;tr&gt;
-        &lt;th&gt;State&lt;/th&gt;
-        &lt;th&gt;Capital&lt;/th&gt;
-        &lt;th&gt;Population&lt;/th&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;California&lt;/td&gt;
-        &lt;td colspan=&quot;3&quot;&gt;The Golden State&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;New York&lt;/td&gt;
-        &lt;td&gt;Albany&lt;/td&gt;
-        &lt;td rowspan=&quot;2&quot;&gt;Too many!&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;Texas&lt;/td&gt;
-        &lt;td&gt;Austin&lt;/td&gt;
-    &lt;/tr&gt;
-&lt;/table&gt;
-</code></pre>  <h3>Spanning rows and columns</h3>
-
-  <table border="1"><br>      <caption>States</caption><br>      <tr><br>          <th>State</th><br>          <th>Capital</th><br>          <th>Population</th><br>      </tr><br>      <tr><br>          <td>California</td><br>          <td colspan="3">The Golden State</td><br>      </tr><br>      <tr><br>          <td>New York</td><br>          <td>Albany</td><br>          <td rowspan="2">Too many!</td><br>      </tr><br>      <tr><br>          <td>Texas</td><br>          <td>Austin</td><br>      </tr><br>  </table>
-
-<ul>
-<li><p>Links to Pages</p>
-<pre><code> &lt;body&gt;
-    &lt;h1&gt;Links to Pages&lt;/h1&gt;
-
-    &lt;p&gt;
-        An absolute link to the
-        &lt;a href=&quot;http://localhost/basics/paragraphs.html&quot;&gt;
-            Paragraphs and Headings
-        &lt;/a&gt; page has the complete URL:
-        &lt;strong&gt;http://localhost/examples/paragraphs.html&lt;/strong&gt;
-    &lt;/p&gt;
-
-    &lt;p&gt;
-        A relative link to the &lt;a href=&quot;tables.html&quot;&gt;Tables&lt;/a&gt; page
-        has a URL that is relative to the directory of the current page:
-        &lt;strong&gt;tables.html&lt;/strong&gt;
-    &lt;/p&gt;
-
-    &lt;h1&gt;Links to Anchor Tags&lt;/h1&gt;
-
-    &lt;p&gt;
-        A link to the the &lt;a href=&quot;#lorem&quot;&gt;lorem&lt;/a&gt; anchor tag
-        on this page uses the location &lt;strong&gt;#lorem&lt;/strong&gt;. Place the
-        anchor tag before the line you want to jump to.
-    &lt;/p&gt;
-
-    &lt;p&gt;
-        You can also jump to the &lt;a href=&quot;lists.html#nested&quot;&gt;nested&lt;/a&gt;
-        anchor tag on the Lists page using the location
-        &lt;strong&gt;lists.html#nested&lt;/strong&gt;
-    &lt;/p&gt;
-
-    &lt;a name=&quot;lorem&quot;&gt;&lt;/a&gt;
-    &lt;h1&gt;Lorem ipsum&lt;/h1&gt;
-
-    &lt;p&gt;
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-        sed do eiusmod tempor incididunt ut labore et dolore magna
-        aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-        ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    &lt;/p&gt;
-&lt;/body&gt;
-</code></pre><body><br><h3>Links to Pages</h3><br><br><p><br>    An absolute link to the<br>    <a href="http://localhost/basics/paragraphs.html" target="_blank" rel="noopener"><br>        Paragraphs and Headings<br>    </a> page has the complete URL:<br>    <strong><a href="http://localhost/examples/paragraphs.html" target="_blank" rel="noopener">http://localhost/examples/paragraphs.html</a></strong><br></p><br><br><p><br>    A relative link to the <a href="tables.html">Tables</a> page<br>    has a URL that is relative to the directory of the current page:<br>    <strong>tables.html</strong><br></p><br><br><h3>Links to Anchor Tags</h3><br><br><p><br>    A link to the the <a href="#lorem">lorem</a> anchor tag<br>    on this page uses the location <strong>#lorem</strong>. Place the<br>    anchor tag before the line you want to jump to.<br></p><br><br><p><br>    You can also jump to the <a href="lists.html#nested">nested</a><br>    anchor tag on the Lists page using the location<br>    <strong>lists.html#nested</strong><br></p><br><br><a name="lorem"></a><br><h3>Lorem ipsum</h3><br><br><p><br>    Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br>    sed do eiusmod tempor incididunt ut labore et dolore magna<br>    aliqua. Ut enim ad minim veniam, quis nostrud exercitation<br>    ullamco laboris nisi ut aliquip ex ea commodo consequat.<br></p><br></body>
-
-
-
-
-
+<li>View Object<ul>
+<li>View objects represent. <ul>
+<li>Input components of a webpage.</li>
+</ul>
+</li>
+<li>Users interact with at least one view object.</li>
+<li>View object collects information from users in a <em>form</em> that the model and controller objects can use.</li>
+</ul>
+</li>
+<li>Controller Object<ul>
+<li>coordinate the model and view object.</li>
+<li>can be implemented by routing</li>
+<li>represent application control flows</li>
+</ul>
+</li>
+</ul>
+<h4 id="Route"><a href="#Route" class="headerlink" title="Route"></a>Route</h4><ul>
+<li>A route is a mapping from an incoming HTTP request to athe appropriate controller code.(说白了就是找路，发来一个http请求，然后route是用来找应该发到哪个controller里)</li>
+<li>A <strong>URI</strong>(Uniform Resource Identifier) identifies a resource your application provides. <ul>
+<li>The most common form of URI is a URL</li>
+</ul>
+</li>
+</ul>
+<h4 id="HTTP-request"><a href="#HTTP-request" class="headerlink" title="HTTP request"></a>HTTP request</h4><ul>
+<li>Most widely used http method is <strong>GET, POST, PUT and DELETE</strong></li>
+</ul>
+<h4 id="Form-data"><a href="#Form-data" class="headerlink" title="Form data"></a>Form data</h4><ul>
+<li>A user can input data into an HTML form displayed on a client-side web browser.</li>
+<li>Ways to send form data: <ul>
+<li>Get method.<ul>
+<li>Appended to the target URL</li>
+<li>Good for small amounts of data</li>
+</ul>
+</li>
+<li>Post method<ul>
+<li>sent via environment variables</li>
+<li>Good for large amounts of data.</li>
+</ul>
 </li>
 </ul>
 </li>
 </ul>
+<p><img src="/images/pasted-7.png" alt="upload successful"></p>
 
       
     </div>
@@ -576,7 +429,7 @@
   </li>
   <li class="post-copyright-link">
     <strong>Post link:</strong>
-    <a href="http://alex-jin.com/2018/03/14/Full-Stack-之-HTML/" title="Full Stack 之 HTML">http://alex-jin.com/2018/03/14/Full-Stack-之-HTML/</a>
+    <a href="http://alex-jin.com/2018/03/14/MVC-Architecture/" title="MVC Architecture">http://alex-jin.com/2018/03/14/MVC-Architecture/</a>
   </li>
   <li class="post-copyright-license">
     <strong>Copyright Notice: </strong>
@@ -589,14 +442,6 @@
 
     <footer class="post-footer">
       
-        <div class="post-tags">
-          
-            <a href="/tags/Full-Stack/" rel="tag"># Full Stack</a>
-          
-            <a href="/tags/HTML/" rel="tag"># HTML</a>
-          
-        </div>
-      
 
       
       
@@ -606,8 +451,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2018/01/19/My-New-Post/" rel="next" title="MyFirstPost">
-                <i class="fa fa-chevron-left"></i> MyFirstPost
+              <a href="/2018/03/14/Full-Stack-之-HTML/" rel="next" title="Full Stack 之 HTML">
+                <i class="fa fa-chevron-left"></i> Full Stack 之 HTML
               </a>
             
           </div>
@@ -615,10 +460,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2018/03/14/MVC-Architecture/" rel="prev" title="MVC Architecture">
-                MVC Architecture <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -780,7 +621,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#Client-and-Server-WebApplication"><span class="nav-number">1.</span> <span class="nav-text">Client and Server WebApplication:</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#undefined"><span class="nav-number"></span> <span class="nav-text">Unordered list</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#undefined"><span class="nav-number"></span> <span class="nav-text">Ordered list</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#undefined"><span class="nav-number"></span> <span class="nav-text">Nested list</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#undefined"><span class="nav-number">1.</span> <span class="nav-text">California</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#undefined"><span class="nav-number">2.</span> <span class="nav-text">New York</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#undefined"><span class="nav-number">3.</span> <span class="nav-text">Texas</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#undefined"><span class="nav-number"></span> <span class="nav-text">Spanning rows and columns</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#undefined"><span class="nav-number"></span> <span class="nav-text">Links to Pages</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#undefined"><span class="nav-number"></span> <span class="nav-text">Links to Anchor Tags</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#undefined"><span class="nav-number"></span> <span class="nav-text">Lorem ipsum</span></a></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#Model-View-Controller-Architecture"><span class="nav-number">1.</span> <span class="nav-text">Model-View-Controller Architecture</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Route"><span class="nav-number">1.1.</span> <span class="nav-text">Route</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#HTTP-request"><span class="nav-number">1.2.</span> <span class="nav-text">HTTP request</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Form-data"><span class="nav-number">1.3.</span> <span class="nav-text">Form data</span></a></li></ol></li></ol></div>
             
 
           </div>
@@ -983,9 +824,9 @@
     
       <script type="text/javascript">
         var disqus_config = function () {
-          this.page.url = 'http://alex-jin.com/2018/03/14/Full-Stack-之-HTML/';
-          this.page.identifier = '2018/03/14/Full-Stack-之-HTML/';
-          this.page.title = 'Full Stack 之 HTML';
+          this.page.url = 'http://alex-jin.com/2018/03/14/MVC-Architecture/';
+          this.page.identifier = '2018/03/14/MVC-Architecture/';
+          this.page.title = 'MVC Architecture';
         };
         var d = document, s = d.createElement('script');
         s.src = 'https://alex-jin-com-1.disqus.com/embed.js';
