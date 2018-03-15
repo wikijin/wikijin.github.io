@@ -261,6 +261,319 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://alex-jin.com/2018/03/14/Full-Stack-之-HTML/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Alex Jin">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/uploads/avatar.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Alex's Website">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/03/14/Full-Stack-之-HTML/" itemprop="url">Full Stack 之 HTML</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-03-14T16:55:39-07:00">
+                2018-03-14
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2018/03/14/Full-Stack-之-HTML/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="2018/03/14/Full-Stack-之-HTML/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h4 id="Client-and-Server-WebApplication"><a href="#Client-and-Server-WebApplication" class="headerlink" title="Client and Server WebApplication:"></a>Client and Server WebApplication:</h4><p><img src="/images/pasted-2.png" alt="upload successful"></p>
+<ul>
+<li>HTML sepecifies a web pages’s:<ul>
+<li>Content</li>
+<li>Strusure</li>
+<li>Semantics</li>
+</ul>
+</li>
+<li>HTML should no longer specify fomatting. Formatting tags and attributes are deprecated</li>
+<li><p>HTML Page Template</p>
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang = &quot;en-US&quot;&gt;
+&lt;head&gt;
+      &lt;meta charset = &quot;UTF-8&quot;&gt;
+      &lt;title&gt;page title&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    body of page
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre></li>
+<li><p>Heading and Paragraphs</p>
+<pre><code>&lt;body&gt;
+      &lt;h1&gt; chapter 1 &lt;/h1&gt;
+      &lt;h2&gt; chapter 1.1 &lt;/h2&gt;
+
+    &lt;p&gt;
+        I dont like 287 class
+    &lt;/p&gt;
+
+    &lt;p&gt;
+        So far OK?
+    &lt;/p&gt;
+ &lt;/body&gt;
+</code></pre></li>
+</ul>
+<p><img src="/images/pasted-4.png" alt="upload successful"></p>
+<ul>
+<li><p>Order and Unordered List &amp;&amp; Nested List</p>
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en-US&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;title&gt;Lists&lt;/title&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+    &lt;h1&gt;Unordered list&lt;/h1&gt;
+
+    &lt;ul&gt;
+        &lt;li&gt;California&lt;/li&gt;
+        &lt;li&gt;New York&lt;/li&gt;
+        &lt;li&gt;Texas&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;h1&gt;Ordered list&lt;/h1&gt;
+
+    &lt;ol&gt;
+        &lt;li&gt;CS 146&lt;/li&gt;
+        &lt;li&gt;CS 151&lt;/li&gt;
+        &lt;li&gt;CS 152&lt;/li&gt;
+        &lt;li&gt;CS 153&lt;/li&gt;
+        &lt;li&gt;CS 160&lt;/li&gt;
+        &lt;li&gt;CS 174&lt;/li&gt;
+    &lt;/ol&gt;
+
+    &lt;!-- Ignore the following anchor tag for now. --&gt;
+    &lt;a name=&quot;nested&quot;&gt;&lt;/a&gt;
+
+    &lt;h1&gt;Nested list&lt;/h1&gt;
+
+    &lt;ol&gt;
+        &lt;li&gt;
+            &lt;h2&gt;California&lt;/h2&gt;
+
+            &lt;ul&gt;
+                &lt;li&gt;San Francisco&lt;/li&gt;
+                &lt;li&gt;San Jose&lt;/li&gt;
+                &lt;li&gt;Los Angeles&lt;/li&gt;
+            &lt;/ul&gt;            
+        &lt;/li&gt;
+        &lt;li&gt;
+            &lt;h2&gt;New York&lt;/h2&gt;
+
+            &lt;ol&gt;
+                &lt;li&gt;New York City&lt;/li&gt;
+                &lt;li&gt;Albany&lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+            &lt;h2&gt;Texas&lt;/h2&gt;
+
+            &lt;ul&gt;
+                &lt;li&gt;Dallas&lt;/li&gt;
+                &lt;li&gt;El Paso&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/li&gt;        
+    &lt;/ol&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre><body><br>  <h3>Unordered list</h3><br><br>  <ul><br>      <li>California</li><br>      <li>New York</li><br>      <li>Texas</li><br>  </ul><br><br>  <h3>Ordered list</h3><br><br>  <ol><br>      <li>CS 146</li><br>      <li>CS 151</li><br>      <li>CS 152</li><br>      <li>CS 153</li><br>      <li>CS 160</li><br>      <li>CS 174</li><br>  </ol><br><br>  <!-- Ignore the following anchor tag for now. --><br>  <a name="nested"></a><br><br>  <h3>Nested list</h3><br><br>  <ol><br>      <li><br>          <h4>California</h4><br><br>          <ul><br>              <li>San Francisco</li><br>              <li>San Jose</li><br>              <li>Los Angeles</li><br>          </ul><br>      </li><br>      <li><br>          <h4>New York</h4><br><br>          <ol><br>              <li>New York City</li><br>              <li>Albany</li><br>          </ol><br>      </li><br>      <li><br>          <h4>Texas</h4><br><br>          <ul><br>              <li>Dallas</li><br>              <li>El Paso</li><br>          </ul><br>      </li><br>  </ol><br></body>
+</li>
+<li><p>Simple Table, Table with Borders and Table with colspan and rowspan</p>
+<pre><code>&lt;h3&gt;Spanning rows and columns&lt;/h3&gt;
+
+&lt;table border=&quot;1&quot;&gt;
+    &lt;caption&gt;States&lt;/caption&gt;
+    &lt;tr&gt;
+        &lt;th&gt;State&lt;/th&gt;
+        &lt;th&gt;Capital&lt;/th&gt;
+        &lt;th&gt;Population&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;California&lt;/td&gt;
+        &lt;td colspan=&quot;3&quot;&gt;The Golden State&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;New York&lt;/td&gt;
+        &lt;td&gt;Albany&lt;/td&gt;
+        &lt;td rowspan=&quot;2&quot;&gt;Too many!&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Texas&lt;/td&gt;
+        &lt;td&gt;Austin&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+</code></pre>  <h3>Spanning rows and columns</h3>
+
+  <table border="1"><br>      <caption>States</caption><br>      <tr><br>          <th>State</th><br>          <th>Capital</th><br>          <th>Population</th><br>      </tr><br>      <tr><br>          <td>California</td><br>          <td colspan="3">The Golden State</td><br>      </tr><br>      <tr><br>          <td>New York</td><br>          <td>Albany</td><br>          <td rowspan="2">Too many!</td><br>      </tr><br>      <tr><br>          <td>Texas</td><br>          <td>Austin</td><br>      </tr><br>  </table>
+
+<ul>
+<li><p>Links to Pages</p>
+<pre><code> &lt;body&gt;
+    &lt;h1&gt;Links to Pages&lt;/h1&gt;
+
+    &lt;p&gt;
+        An absolute link to the
+        &lt;a href=&quot;http://localhost/basics/paragraphs.html&quot;&gt;
+            Paragraphs and Headings
+        &lt;/a&gt; page has the complete URL:
+        &lt;strong&gt;http://localhost/examples/paragraphs.html&lt;/strong&gt;
+    &lt;/p&gt;
+
+    &lt;p&gt;
+        A relative link to the &lt;a href=&quot;tables.html&quot;&gt;Tables&lt;/a&gt; page
+        has a URL that is relative to the directory of the current page:
+        &lt;strong&gt;tables.html&lt;/strong&gt;
+    &lt;/p&gt;
+
+    &lt;h1&gt;Links to Anchor Tags&lt;/h1&gt;
+
+    &lt;p&gt;
+        A link to the the &lt;a href=&quot;#lorem&quot;&gt;lorem&lt;/a&gt; anchor tag
+        on this page uses the location &lt;strong&gt;#lorem&lt;/strong&gt;. Place the
+        anchor tag before the line you want to jump to.
+    &lt;/p&gt;
+
+    &lt;p&gt;
+        You can also jump to the &lt;a href=&quot;lists.html#nested&quot;&gt;nested&lt;/a&gt;
+        anchor tag on the Lists page using the location
+        &lt;strong&gt;lists.html#nested&lt;/strong&gt;
+    &lt;/p&gt;
+
+    &lt;a name=&quot;lorem&quot;&gt;&lt;/a&gt;
+    &lt;h1&gt;Lorem ipsum&lt;/h1&gt;
+
+    &lt;p&gt;
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore magna
+        aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+        ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    &lt;/p&gt;
+&lt;/body&gt;
+</code></pre><body><br><h3>Links to Pages</h3><br><br><p><br>    An absolute link to the<br>    <a href="http://localhost/basics/paragraphs.html" target="_blank" rel="noopener"><br>        Paragraphs and Headings<br>    </a> page has the complete URL:<br>    <strong><a href="http://localhost/examples/paragraphs.html" target="_blank" rel="noopener">http://localhost/examples/paragraphs.html</a></strong><br></p><br><br><p><br>    A relative link to the <a href="tables.html">Tables</a> page<br>    has a URL that is relative to the directory of the current page:<br>    <strong>tables.html</strong><br></p><br><br><h3>Links to Anchor Tags</h3><br><br><p><br>    A link to the the <a href="#lorem">lorem</a> anchor tag<br>    on this page uses the location <strong>#lorem</strong>. Place the<br>    anchor tag before the line you want to jump to.<br></p><br><br><p><br>    You can also jump to the <a href="lists.html#nested">nested</a><br>    anchor tag on the Lists page using the location<br>    <strong>lists.html#nested</strong><br></p><br><br><a name="lorem"></a><br><h3>Lorem ipsum</h3><br><br><p><br>    Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br>    sed do eiusmod tempor incididunt ut labore et dolore magna<br>    aliqua. Ut enim ad minim veniam, quis nostrud exercitation<br>    ullamco laboris nisi ut aliquip ex ea commodo consequat.<br></p><br></body>
+
+
+
+
+
+</li>
+</ul>
+</li>
+</ul>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://alex-jin.com/2018/01/19/My-New-Post/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -596,7 +909,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-count">3</span>
                   <span class="site-state-item-name">posts</span>
                 </a>
               </div>
@@ -607,7 +920,7 @@
               
               <div class="site-state-item site-state-categories">
                 <a href="/categories/index.html">
-                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">categories</span>
                 </a>
               </div>
@@ -618,7 +931,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-count">4</span>
                   <span class="site-state-item-name">tags</span>
                 </a>
               </div>
