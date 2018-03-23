@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://alex-jin.com/2018/03/21/Web-Application/</loc>
+    
+    <lastmod>2018-03-23T22:46:47.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://alex-jin.com/2018/03/14/MVC-Architecture/</loc>
     
     <lastmod>2018-03-15T11:29:00.000Z</lastmod>
@@ -33,13 +40,6 @@
     <loc>http://alex-jin.com/categories/index.html</loc>
     
     <lastmod>2018-01-31T07:50:31.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://alex-jin.com/2018/01/19/My-New-Post/</loc>
-    
-    <lastmod>2018-01-31T07:41:42.000Z</lastmod>
     
   </url>
   
